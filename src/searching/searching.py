@@ -1,4 +1,4 @@
-def linear_search(arr, target):
+def linear_search(arr, target): #runtime complexity = linear
     # Your code here
     for index, value in enumerate(arr):
         if value == target:
@@ -8,7 +8,7 @@ def linear_search(arr, target):
 
 
 # Write an iterative implementation of Binary Search
-def binary_search(arr, target):
+def binary_search(arr, target): #runtime complexity = log
     top = len(arr) - 1
     bottom = 0
     while bottom <= top:
